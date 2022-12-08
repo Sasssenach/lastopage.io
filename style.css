@@ -1,0 +1,262 @@
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Rubik Dirt', cursive, monospace;
+}
+.accordion-button{
+    background-color: #b118a4;
+}
+
+.boton{
+    color: #b118a4;
+}
+
+.seccion-clara :hover{
+    background-color: transparent ;
+    color: rgb(199, 35, 221);
+
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 40px 0;
+    font-family: 'Rubik Dirt', cursive, monospace;
+}
+
+.seccion-descripcion {
+    font-size: 1.2rem;
+    color: #584e4e;
+}
+
+.seccion-texto {
+    font-size: 1.3rem;
+}
+
+.btn-info {
+
+    margin: 50px;
+}
+
+.navbar {
+margin-top: 5px;
+
+}
+
+
+
+
+
+.hero {
+    background-color: #d214b6;
+    min-height: 450px;
+    text-align: center;
+    margin: solid 3px;
+background-color: #cd1ef0;
+}
+
+.hero-principal {
+    padding: 5rem;
+}
+
+.cosmeticos {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #615151;
+}
+
+.nosotros {
+    height: 200px;
+    padding: 10px;
+    max-width: 600px;
+} 
+
+.nosotros .contenedor {
+  
+    text-align: center;
+}
+
+.experiencia {
+    padding: 40px 40px 60px 40px;
+}
+
+.experiencia .columna {
+    padding: 20px;
+  
+    border: 5px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ 
+    transition: all 0.5s ease-in;
+}
+
+
+
+
+.testimonios {
+    padding: 40px 40px 80px 40px;
+}
+
+.testimonios .carousel{
+    max-width: 800px;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-item .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.testimonio-imagen {
+    height: 200px;
+    width: 200px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 10% 50%;
+}
+
+.testimonio-texto {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+
+
+
+
+
+.belleza .columna:hover {
+    color: white;
+    background-color: rgb(47, 51, 32);
+}
+
+.belleza i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #b118a4;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.experiencia-titulo {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges-contenedor {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
+}
+
+
+
+
+
+.proyectos-recientes {
+    padding: 40px;
+}
+
+.proyectos-recientes img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+}
+
+.proyectos-contenedor {
+    padding-top: 60px;
+    margin-bottom: 40px;
+ 
+}
+
+.overlay {
+    
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+
+
+.proyecto {
+    position: relative;
+}
+
+
+.proyecto:hover img {
+    opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+    opacity: 1;
+}
+
+
+.overlay i {
+    color: rgb(233, 22, 216);
+    font-size: 45px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
